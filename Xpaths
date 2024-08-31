@@ -1,0 +1,20 @@
+Cars & Vehicles: //a[@href='/cars-vans-motorbikes/cars']/span
+Vans: //a[@href='/cars-vans-motorbikes/vans']
+
+//ul[@data-q='category-column-panel']//li[2]//a[contains(text(),'Motorbikes & Scooters')]
+
+Feature: This is to specify the name of the feature [In one feature file there could be only one feature]
+Scenario: This is to specify the name of the test scenario/test case what we are going to test [This can be multiple scenarios in one feature file]
+Given: This step is used to set the context [Pre-requisites]
+When: This step is the action/ interaction with the system
+Then: This step is for representing the outcome
+And: This step for extending the previous step
+
+OrangeHRM:
+name: username
+name: password
+button -> type: submit --> XPath: //button[@type='submit']
+Logo: //img[@alt='company-branding']
+
+//*[@id=\"divLogo\"]/img
+
